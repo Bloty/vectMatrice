@@ -1,0 +1,6 @@
+déterminer le produit d'un vecteur par une matrice 
+simplicité : limiter les fonctions membres à un constructeur et une fonction d'affichage
+fournir deux solutions fondées sur l'emploi d'une fonction amie nommée "prod"
+
+1) prod est indé et amie de la classe vect et matrice
+2) prod est membre de matrice et amie de classe vect
