@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Vecteur3.h"
+#include "Matrice.h"
 
 
 
@@ -26,8 +27,27 @@ int Vecteur3::getZ()
 	return nZ;
 }
 
+//Mutateur
+void Vecteur3::setX(int _nX)
+{
+	this->nX = _nX;
+}
+
+void Vecteur3::setY(int _nY)
+{
+	this->nY = _nY;
+}
+
+void Vecteur3::setZ(int _nZ)
+{
+	this->nZ = nZ;
+}
+
 //Méthode
+//affichage du vecteur 3D
 void Vecteur3::affiche()
 {
 	std::cout << "<" << this->nX<< "," << this->nY << "," << this->nZ << ">" << std::endl;
 }
+
+

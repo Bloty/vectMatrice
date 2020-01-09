@@ -1,4 +1,7 @@
 #pragma once
+#include "Matrice.h"
+
+
 class Vecteur3
 {
 private :
@@ -15,7 +18,14 @@ public :
 	int getY();
 	int getZ();
 
+	//Mutateur
+	void setX(int _nX);
+	void setY(int _nY);
+	void setZ(int _nZ);
+
 	//Méthode
 	void affiche();
+
+	//friend Matrice Vecteur3::produit(Matrice matrise);
 };
 
